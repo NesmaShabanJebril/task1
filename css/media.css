@@ -4,6 +4,8 @@
     font-size: 20px;
 }
     
-    
+  .row div{
+        padding: 0px!important;
+    }    
     
 }
