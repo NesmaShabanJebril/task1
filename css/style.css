@@ -1,0 +1,59 @@
+@import url(AVGARDM.TTF);
+@font-face{
+    font-family:AVGARDM;
+  src: url("AVGARDM.TTF"); 
+    font-style:normal;
+}
+body{
+    font-family: AVGARDM;
+    background-image: linear-gradient(to right bottom , #e9eef4, #cad3e4);
+    direction: rtl;
+    padding: 10px;
+}
+.search{
+    border: 2px solid #fff;
+   background-image: linear-gradient(to right bottom , #e9eef4, #f1f4f9);
+}
+h1{
+    background-color: #f7f8fd;
+    font-weight: bold;
+    margin-bottom: 0px;
+    padding: 5px;
+}
+hr{
+  border: 1px solid #fff;
+    margin: 0px;
+    height: 1px;
+    opacity: .8;
+}
+input,select{
+    padding: 5px;
+    width: 90%;
+    border: 1px solid #d9ddde;
+    border-radius: 8px;
+    margin: 10px;
+    color: #929292;
+}
+select{
+    direction: ltr;
+}
+::placeholder{
+    color: #929292;
+}
+.row{
+    margin: 0px!important;
+}
+ .btn-primary{
+    background-color: #8cade2;
+     margin: 15px;
+     border-color: #8cade2; 
+     min-width: 80px;
+}
+.rounded-circle{
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+}
+h3{
+font-size: 22px;
+}
